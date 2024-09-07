@@ -111,7 +111,7 @@ jobs:
           name: deno.js
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
-        with:
+        with: 
           project: lizc521-meting-api
           entrypoint: deno.js
 
